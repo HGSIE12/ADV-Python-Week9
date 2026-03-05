@@ -11,4 +11,5 @@ theoretical_prob_6 = 1/6
 event_even = {x for x in rolls if x % 2 == 0}
 event_high = {x for x in rolls if x >= 4}
 
+
 print("P(even) =", len(event_even)/len(rolls))
